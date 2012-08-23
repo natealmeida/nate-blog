@@ -1,0 +1,18 @@
+<DOCTYPE = html>
+<html>
+	<head>
+		<title>Blog Frontpage</title>
+	</head>
+	<body>
+		<h2>Test blog front.</h2>
+		<p>These are the posts in the blog.</p>
+		{% for post in posts %}
+			<hr>
+			<div class = "post">
+				<div class = "post-title">{{post.subject}}</div>
+				<pre class = "post-date">{{post.created}}</pre>
+				<pre class = "post-body">{{post.content}}</pre>
+			</div>
+		{% endfor %}
+	</body>
+</html>

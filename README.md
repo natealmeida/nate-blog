@@ -1,0 +1,1 @@
+This is a simple blog, implemented in Python and designed to run on Google's App Engine.
